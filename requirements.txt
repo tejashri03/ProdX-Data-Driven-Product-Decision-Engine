@@ -1,0 +1,35 @@
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Statistical analysis
+statsmodels>=0.13.0
+scikit-learn>=1.1.0
+
+# Database connections (for production)
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# Caching (for production)
+redis>=4.0.0
+
+# Utilities
+python-dotenv>=0.19.0
+tqdm>=4.64.0
+
+# Testing (optional)
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# API (for production)
+fastapi>=0.85.0
+uvicorn>=0.18.0
+
+# Configuration
+pyyaml>=6.0

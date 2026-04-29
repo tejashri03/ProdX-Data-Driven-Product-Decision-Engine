@@ -1,0 +1,47 @@
+[
+  {
+    "decision": "Launch Treatment",
+    "confidence": 0.9099999999999999,
+    "reasoning": "Primary metric shows statistically significant positive lift; Sample size requirements are met; All guardrail metrics are within acceptable ranges; Results are consistent across user segments; Projected positive annual revenue impact of $115,312",
+    "primary_metric_evaluation": {
+      "metric": "Conversion Rate",
+      "meets_sample_size": true,
+      "is_significant": "True",
+      "has_sufficient_power": true,
+      "positive_lift": "True",
+      "meets_min_effect": "True",
+      "unacceptable_negative": "False",
+      "confidence_interval_excludes_zero": "True"
+    },
+    "business_impact": {
+      "current_monthly_revenue": 21659.22814386978,
+      "projected_monthly_revenue": 31268.520978520777,
+      "monthly_revenue_impact": 9609.292834650998,
+      "annual_revenue_impact": 115311.51401581198,
+      "impact_percentage": 44.3658138268917
+    },
+    "guardrail_check": {
+      "has_violations": false,
+      "violations": []
+    },
+    "segment_consistency": {
+      "average_segment_lift": 51.99768418896209,
+      "lift_coefficient_of_variation": 0.4210010356825549,
+      "inconsistent_segments": [],
+      "is_consistent": true
+    },
+    "recommendations": [
+      "Launch the treatment to 100% of users",
+      "Monitor key metrics for 2 weeks post-launch",
+      "Prepare rollback plan if performance degrades",
+      "Document learnings for future experiments"
+    ],
+    "next_steps": [
+      "Schedule deployment meeting with engineering team",
+      "Prepare communication plan for stakeholders",
+      "Set up post-launch monitoring dashboard",
+      "Document experiment results in knowledge base"
+    ],
+    "timestamp": "2026-04-29T19:28:19.006638"
+  }
+]
