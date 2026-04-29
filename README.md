@@ -1,9 +1,5 @@
 # Advanced A/B Testing Experimentation Platform
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](README.md)
-
 A comprehensive, production-ready A/B testing platform built with Python, featuring advanced statistical analysis, real-time decision making, and business intelligence capabilities.
 
 ## 🚀 Features
@@ -494,3 +490,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ for data-driven decision making**
 
 *Empowering teams to make better product decisions through rigorous experimentation and statistical analysis.*
+
+# ProdX-Data-Driven-Product-Decision-Engine
+ProdX is an end-to-end product analytics system designed to simulate A/B testing workflows and enable data-driven product decisions using user behavior insights and statistical validation.
