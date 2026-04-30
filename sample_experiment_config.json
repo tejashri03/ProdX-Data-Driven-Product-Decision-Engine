@@ -1,0 +1,26 @@
+{
+  "experiment_id": "4a4b637e",
+  "name": "Enhanced PDP Redesign Test",
+  "hypothesis": "New PDP design with Bayesian optimization will increase conversion rate",
+  "primary_metric": "conversion_rate",
+  "secondary_metrics": [
+    "ctr",
+    "time_spent",
+    "view_rate"
+  ],
+  "status": "analyzed",
+  "created_at": "2026-04-30T18:56:24.900310",
+  "config": {
+    "seed": 42,
+    "algorithm": "thompson_sampling"
+  },
+  "traffic_allocation": {
+    "control": 0.4,
+    "treatment_a": 0.35,
+    "treatment_b": 0.25
+  },
+  "significance_level": 0.05,
+  "power": 0.8,
+  "min_effect_size": 0.02,
+  "sample_size": 10000
+}

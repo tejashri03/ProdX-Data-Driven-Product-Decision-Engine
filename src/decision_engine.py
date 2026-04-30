@@ -30,12 +30,12 @@ class ExperimentResult:
     metric: str
     control_rate: float
     treatment_rate: float
-    relative_lift: float
+    relative_difference: float
     p_value: float
     confidence_interval: Tuple[float, float]
+    test_statistic: float
     sample_size_control: int
     sample_size_treatment: int
-    power: float
     is_significant: bool
 
 class ABTestDecisionEngine:

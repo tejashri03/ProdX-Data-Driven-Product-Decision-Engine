@@ -1,0 +1,24 @@
+{
+  "A": {
+    "total_users": 50000,
+    "view_rate": 0.80036,
+    "ctr": 0.11979609175870859,
+    "conversion_rate": 0.00288,
+    "avg_time_spent": 116.47499175371085,
+    "total_purchases": "144"
+  },
+  "B": {
+    "total_users": 50000,
+    "view_rate": 0.81918,
+    "ctr": 0.13811372347957715,
+    "conversion_rate": 0.00414,
+    "avg_time_spent": 127.5845164676872,
+    "total_purchases": "207"
+  },
+  "lifts": {
+    "view_rate_lift": 2.35144185116698,
+    "ctr_lift": 15.290675557065448,
+    "conversion_lift": 43.74999999999998,
+    "time_spent_lift": 9.538120197911404
+  }
+}

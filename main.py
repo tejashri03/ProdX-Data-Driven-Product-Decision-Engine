@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Main execution script for A/B Testing Experimentation Platform
-This script runs the complete pipeline from data generation to decision making
-"""
 
 import sys
 import os

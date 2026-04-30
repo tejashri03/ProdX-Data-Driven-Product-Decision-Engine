@@ -1,0 +1,43 @@
+{
+  "experiment_summary": {
+    "total_users": 98448,
+    "conversion_rate": 0.004169136130469437,
+    "relative_lift": 44.36581382689169,
+    "statistical_significance": "True"
+  },
+  "bayesian_analysis": {
+    "probability_treatment_better": 0.99968,
+    "expected_loss": 3.7163032362561306e-08,
+    "decision": "Launch Treatment"
+  },
+  "bandit_results": {
+    "best_variant": "treatment_a",
+    "best_rate": 0.04709495776810852,
+    "algorithms_tested": [
+      "epsilon_greedy",
+      "ucb1",
+      "thompson_sampling"
+    ]
+  },
+  "decision_recommendation": {
+    "decision": "Launch Treatment",
+    "confidence": 0.9099999999999999,
+    "business_impact": {
+      "current_monthly_revenue": 21659.22814386978,
+      "projected_monthly_revenue": 31268.520978520777,
+      "monthly_revenue_impact": 9609.292834650998,
+      "annual_revenue_impact": 115311.51401581198,
+      "impact_percentage": 44.3658138268917
+    }
+  },
+  "advanced_features": [
+    "Bayesian Statistical Methods",
+    "Multi-Armed Bandit Algorithms",
+    "Database Integration",
+    "Real-time API",
+    "Interactive Dashboard",
+    "Containerization",
+    "Comprehensive Testing"
+  ],
+  "generated_at": "2026-04-30T18:56:24.911129"
+}
