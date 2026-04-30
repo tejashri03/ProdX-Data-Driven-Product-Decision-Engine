@@ -347,9 +347,9 @@ async def get_experiment_report(experiment_id: str):
 
 @app.post("/api/v1/experiments/{experiment_id}/upload-data")
 async def upload_experiment_data(
-    experiment_id: str, 
-    file: UploadFile = File(...),
-    background_tasks: BackgroundTasks
+    experiment_id: str,
+    background_tasks: BackgroundTasks,
+    file: UploadFile = File(...)
 ):
     """Upload experiment data from CSV file"""
     if experiment_id not in experiments_db:
